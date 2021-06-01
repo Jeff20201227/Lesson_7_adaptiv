@@ -42,19 +42,21 @@ a
     margin-right: 15%
 
 .middle_top
+    display: flex
     background-color: $backGroundColor
+    min-height: 764px
+
+.middle_left_img
     background-image: url(img/man_adaptive.png)
     background-repeat: no-repeat
-    margin-bottom: 65px
-    padding-right: 50%
-    max-width: 100%
+    width: 50%
+    min-height: 764px
 
 .text_1
     display: flex
-    padding-left: 892px
-    padding-right: 20.69%
-    padding-top: 41.19%
-    padding-bottom: 40.19%
+    margin-top: 23%
+    margin-bottom: 30%
+    width: 377px
 
 .text_1_p
     display: flex
@@ -198,6 +200,9 @@ button
     display: flex
     flex-wrap: wrap
     justify-content: space-between
+
+.product-box
+    margin-bottom: 234px
 
 .product
     position: relative
@@ -479,6 +484,7 @@ p.subtext
     background-color: $colorDisainer
     border-radius: 0px 23px 23px 0px
     border: none
+    margin-right: 327px
 
 .by
     font-size: 14px
@@ -531,3 +537,13 @@ footer
     font-size: 18px
     background-color: $colorDisainer
     box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.16)
+
+@media screen and (max-width: 768px)
+    .wrapper
+        max-width: 768px
+    .product_carts_item
+        width: 42%
+    .product_content
+
+    .man_img
+        margin-left: -200px
